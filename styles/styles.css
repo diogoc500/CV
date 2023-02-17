@@ -1,0 +1,138 @@
+/* ===== IMPORTS ===== */
+
+/* ===== GLOBAL STUFF ===== */
+:root {
+  /* ===== COLORS ===== */
+
+  /* --primary-blue: #3b4284; */
+  /* --primary-dark-blue: #2a305e; */
+
+  --primary-blue: #3a4183;
+  --primary-dark-blue: #2a2f5e;
+}
+
+.bg-p-blue {
+  background-color: var(--primary-blue);
+}
+
+p {
+  font-size: 1.1em;
+}
+
+/* ===== TITLE SECTION ===== */
+/* CLASS SELECTORS */
+.title-banner {
+  height: 50em;
+  background-image: url(../assets/images/binary-bg.png);
+}
+
+.profile-photo {
+  max-width: 30em;
+  height: auto;
+}
+
+@media screen and (max-width: 1370px) {
+  .profile-photo {
+    max-width: 90%;
+    height: auto;
+  }
+}
+
+.profile-photo-div {
+  text-align: center;
+}
+
+.title-text {
+  padding-top: 25%;
+}
+
+.welcome-text {
+  font-size: 5em;
+}
+
+.welcome-description {
+  color: #c7c7c7;
+  font-size: 1.3em;
+}
+
+/* ID SELECTORS */
+
+/* ===== ABOUT-ME SECTION ===== */
+/* CLASS SELECTORS */
+/* ID SELECTORS */
+#about-me-section {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+/* ===== EXPERIENCE SECTION ===== */
+/* CLASS SELECTORS */
+.experience-table {
+  color: white;
+}
+
+/* ID SELECTORS */
+#experience-section {
+  background-color: var(--primary-dark-blue);
+  color: white;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+/* ===== WORKSHOPS SECTION ===== */
+/* CLASS SELECTORS */
+/* ID SELECTORS */
+#workshops-section {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+/* ===== EDUCATION SECTION ===== */
+/* CLASS SELECTORS */
+.school-link {
+  color: white;
+}
+
+/* ID SELECTORS */
+#education-section {
+  background-image: url("../assets/images/fct.png");
+  color: white;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+/* ===== SKILLS-LANGUAGE SECTION ===== */
+/* CLASS SELECTORS */
+.language-col {
+  padding-top: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .language-col {
+    padding-top: 3em;
+  }
+}
+
+/* ID SELECTORS */
+#skills-language-section {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+/* ===== HOBBIES SECTION ===== */
+/* CLASS SELECTORS */
+/* ID SELECTORS */
+#hobbies-section {
+  background-color: var(--primary-dark-blue);
+  color: white;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+/* ===== CONTACT-ME SECTION ===== */
+/* CLASS SELECTORS */
+/* ID SELECTORS */
+#contact-me-section {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
