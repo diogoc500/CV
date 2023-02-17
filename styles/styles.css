@@ -11,6 +11,19 @@
   --primary-dark-blue: #2a2f5e;
 }
 
+.clickable {
+  color: black;
+  text-decoration: none;
+}
+
+.b-bg-link {
+  color: white;
+}
+
+.w-bg-link {
+  color: black;
+}
+
 .bg-p-blue {
   background-color: var(--primary-blue);
 }
@@ -121,6 +134,15 @@ p {
 
 /* ===== HOBBIES SECTION ===== */
 /* CLASS SELECTORS */
+.hobbies-carousel-inner {
+  padding: 7% 15%;
+}
+
+.hobby-icon {
+  height: auto;
+  width: 200px;
+}
+
 /* ID SELECTORS */
 #hobbies-section {
   background-color: var(--primary-dark-blue);
@@ -131,8 +153,20 @@ p {
 
 /* ===== CONTACT-ME SECTION ===== */
 /* CLASS SELECTORS */
+.contact-me-icon {
+  font-size: 5em;
+}
+
 /* ID SELECTORS */
 #contact-me-section {
   padding-top: 3em;
   padding-bottom: 3em;
+}
+
+/* ===== FOOTER SECTION ===== */
+/* CLASS SELECTORS */
+/* ID SELECTORS */
+#footer-section {
+  background-color: var(--primary-dark-blue);
+  height: 100px;
 }
