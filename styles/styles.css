@@ -165,6 +165,22 @@ p {
 
 /* ===== FOOTER SECTION ===== */
 /* CLASS SELECTORS */
+.author-footer {
+  color: white;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.credits-button {
+  width: 5em;
+  background-color: var(--primary-blue);
+}
+
 /* ID SELECTORS */
 #footer-section {
   background-color: var(--primary-dark-blue);
